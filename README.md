@@ -46,7 +46,12 @@ Booting from SSD is ideal due to our Kubernetes deployment, however since our us
 - Insert MicroSD into Raspi
 - Connect Ethernet, Power, & the flashed MicroSD card
 **NOTE: ENSURE RASPI & WORKPC ARE CONNECTED TO SAME INTERNET DEVICE**
-If the PC is plugged into the Modem but the Raspi is on a Router/Switch, you run the 
+If the PC is plugged into the Modem but the Raspi is on a Router/Switch, you run into an issue with dual NAT tables & the devices will not be able to communicate.
+It is also worth noting: The Raspi must be connected to whichever device will be used for all your home wifi. Whether that's your modem itself or a seperate router, doesn't matter. The device you connect your phone, laptops, ipads, smart tv, etc. will want to have the Raspi connected.
 
 
-k3s is installed
+
+## Install Tools (Ryzen & Raspi?)
+### Raspberry Pi Tools
+'sudo apt update && sudo apt full-upgrade -y'
+This will take a while. Go make some coffee....
