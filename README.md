@@ -1,15 +1,13 @@
 # pi-hole
-Workflow for the the testing &amp; deployment of pi-hole on a home router
-### Goal: stand up a single-node Kubernetes instance (k3s) on the raspberry pi 4b & deploy Pi-hole on it.
+Workflow for the the testing &amp; deployment of pi-hole on a home router.
+## Goal: Stand up a single-node Kubernetes instance (k3s) on the Raspberry Pi 4b & deploy pi-hole on it
 ### Concepts:
-- Linux CLI (ssh, systemd, vim)
+- Linux CLI Basics (ssh, systemd, vim, ping)
 - Networking (DHCP vs. Static IP, subnets / CIDR notation, DNS Resolution, LoadBalancer)
 - Kubernetes (Pod, Deployment, Service, PVC, Secret, Namespace)
-
 ### Language:
 - Bash
 - YAML
-
 ### Items
 - Raspberry Pi 4b 4GB
 - Modem (Xfinity XB7 Modem)
@@ -17,13 +15,15 @@ Workflow for the the testing &amp; deployment of pi-hole on a home router
 - Ethernet Cables 
 - Coffeeeeee (basecamp beans)
 
-## Notes
+### Notes
 - Work was done on Rzyen 5 7600 running Ubuntu 24.04.4 LTS
 - Tasking was co-authored using Claude (solely for education & technical support -- all code was human-written)
-
+- Reference documents can be found on the [pi-hole webpage](https://pi-hole.net/) & [pi-hole Git repo](https://github.com/pi-hole/pi-hole)
 
 
 # Work Done
+##TODO
+Add Summary of steps here. Numbered. Perhaps hyperlinked.
 ## Start by flashing the Raspi with Ubuntu Server 24.04 LTS (ARM64) from microSD
 ### Pull Software
 Install Raspberry Pi Imager onto the Working PC (Ryzen 5 in my case)
